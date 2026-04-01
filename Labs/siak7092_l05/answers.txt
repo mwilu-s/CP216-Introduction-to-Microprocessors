@@ -1,0 +1,17 @@
+/*
+-------------------------------------------------------
+answers.txt
+-------------------------------------------------------
+Author:  Mwilu Siakachoma
+ID:      169107092
+Email:   siak7092@mylaurier.ca
+Date:    2026-03-06
+-------------------------------------------------------
+Answers for lab 5
+-------------------------------------------------------
+*/
+
+Task 1: We are initialising the sum (reg. 0) to 0 and then checking if r1 and r2, which are the start and end, are the same. If they are the same, then we will stop looping as Z = 1 (CPSR flags). We will load the current value stored at address of r1 into r3 and then move to the next element. We will then add that same value to the sum (reg. 0) and we will continue to loop. Once we are 'finished' then we will return from the subroutine.
+
+Task 2: If r4 i changed without being preserved in the subroutine then CPUlator gives a Function clobbered register error for r4. R4 needs to be preserved otherwise the value that is expected will be lost when calling the function which gives the error. 
+

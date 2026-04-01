@@ -1,0 +1,12 @@
+/*
+-------------------------------------------------------
+Lab 7 Answers
+-------------------------------------------------------
+Author:  Mwilu Siakachoma
+ID:      169107092
+Email:   siak7092@mylaurier.ca
+Date:    2026-03-20
+-------------------------------------------------------
+*/
+
+Task 1: isLetter will fail when run because bl overwrites lr. That means that after calling another subroutine it will lose its own return address. Therefore, saving lr on the stack fixes that.

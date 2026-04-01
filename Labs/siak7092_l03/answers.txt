@@ -1,0 +1,19 @@
+-------------------------------------------------------
+answers.txt
+-------------------------------------------------------
+Author:  Mwilu Siakachoma
+ID:      169107092
+Email:   siak7092@mylaurier.ca
+Date:    2026-02-12  
+-------------------------------------------------------
+Answers for Lab 3
+-------------------------------------------------------
+
+Task 1
+When the loop is done, the value in r3 for signed decimal and hexadecimal is -1 and FFFFFFFF, respectively. 
+
+Task 2
+The address of counter in hexadecimal is 00001014
+
+Task 3
+These values can be changed in memory as they are stored in memory now instead of having to hard-code them to change the values but when the program is run, nothing actually changes. The LEDs will still move the same way at the exact same speed.

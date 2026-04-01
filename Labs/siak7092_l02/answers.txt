@@ -1,0 +1,23 @@
+-------------------------------------------------------
+answers.txt
+-------------------------------------------------------
+Author:  Mwilu Siakachoma
+ID:      169107092
+Email:   siak7092@mylaurier.ca
+Date:    2026-02-06
+-------------------------------------------------------
+Answers for Lab 2
+-------------------------------------------------------
+
+Task 1
+Line 19: This is a syntax error as it is supposed to appear as =A. This correction will properly load the address of A into R3.
+Line 21: This is also a syntax error as it is supposed to appear as =B. This correction will properly load the address of B into R3.
+Line 23: This is an error as the brackets [r0] is only valid if you are doing ldr or str. Add does not do that. The brackets should be removed.
+
+Task 2
+Line 26: This is a syntax error as there are supposed to be square brackets around r3 as str requires a memory address.
+Line 30: This is also a syntax error as there are also supposed to be square brackets around r2 as str requires a memory address.
+Line 29: This is a spelling error and, thus, a syntax error as =Diff is the correct label spelling.
+
+Task 3
+There is an error with .bss as it is for uninitialized memory only and .word 6 initializes memory. So to fix it, we move Vec2 under .data so there is no error.

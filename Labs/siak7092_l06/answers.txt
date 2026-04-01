@@ -1,0 +1,21 @@
+/*
+-------------------------------------------------------
+Answers for Lab 6
+-------------------------------------------------------
+Author:  Mwilu Siakachoma
+ID:      169107092
+Email:   siak7092@mylaurier.ca
+Date:    2026-03-13
+-------------------------------------------------------
+*/
+
+Task 1:
+Prologue - The prologue saves the previous fp, return address, and registers used by the subroutine onto the stack, then sets a new fp and loads the parameters from the stack into registers so the subroutine can use them.
+
+Epilogue - The epilogue restores the saved registers and fp from the stack and returns to the calling program by restoring the pc.
+
+Task 2:
+Main program loads the addresses of the list, the end of the list, and the result locations for the min and max values. It then pushes them onto the stack in reverse order and calls subroutine MinMax and then removes the parameters from the stack after the subroutine returns.
+
+Task 3:
+The program pushes the addresses of the two strings onto the stack. It then calls FindCommon and then removes the parameters afterward. Inside the subroutine, the prologue saves registers and sets up the stack frame so the parameters can be loaded from the stack. Also, the epilogue restores the registers and returns to the caller.

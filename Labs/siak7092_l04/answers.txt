@@ -1,0 +1,14 @@
+-------------------------------------------------------
+answers.txt
+-------------------------------------------------------
+Author:  Mwilu Siakachoma
+ID:      169107092
+Email:   siak7092@mylaurier.ca
+Date:    2026-02-27  
+-------------------------------------------------------
+Answers for Lab 4
+-------------------------------------------------------
+
+Task 2:
+
+You can find the number of bytes in the list without using the loop as each value in the list is a 4 byte word so you can just multiply that by the number of values you have in your list.

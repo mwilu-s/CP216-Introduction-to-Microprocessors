@@ -1,0 +1,19 @@
+-------------------------------------------------------
+answers.txt
+-------------------------------------------------------
+Author:  Mwilu Siakachoma
+ID:      169107092
+Email:   siak7092@mylaurier.ca
+Date:    2026-01-23
+-------------------------------------------------------
+Answers for Lab 1
+-------------------------------------------------------
+
+Task 1
+There is no behavioural changes to the program when the 0xE (14 in decimal) is changed to '#14'. It is compiled successfully.
+
+Task 2
+Yes, it is legal to do this as there were no complications and it was successfully compiled.
+
+Task 3
+This is illegal and there is a compilation error. You cannot add two immediate values as there is an expectation that at least one of the operands are a register. However, when the middle operand is changed to a register, the compilation is successful and, therefore, becomes legal.
