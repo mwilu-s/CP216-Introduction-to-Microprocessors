@@ -1,0 +1,12 @@
+/*
+-------------------------------------------------------
+Lab 9
+Interrupts
+-------------------------------------------------------
+Author:  Mwilu Siakachoma
+ID:      169107092
+Email:   siak7092@mylaurier.ca
+Date:    2026-04-03
+-------------------------------------------------------
+*/
+Task 1: The initial value is 100MHz x 2 = 200MHz = 0x0BEBC200 (lower half = 0x0000C200 and upper half = 0x0BEB0000)
